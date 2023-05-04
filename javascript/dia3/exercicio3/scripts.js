@@ -26,7 +26,7 @@ function removeCliente(cliente) {
   let index = clienteIndex(cliente);
   if (index === false) {
     return 'Cliente não encontrada(o).'
-  }
+ }
 
   clientesBank.splice(index, 1);
   return 'Cliente excluída(o) com sucesso.';
