@@ -1,0 +1,38 @@
+let clientesBank = ['Ada', 'John', 'Gus'];
+
+function validaCliente(cliente) {
+  if (typeof cliente !== 'string') {
+    return 'O parâmetro passado deve ser do tipo "string"!';
+  } else {
+    return true;
+  }
+}
+
+function clienteIndex(cliente) {
+  for (let index = 0; index < clientesBank.length; index += 1) {
+    if (cliente === clientesBank[index]) {
+      return index;
+    }
+  }
+  return false;
+}
+
+function removeCliente(cliente) {
+  let validacao = validaCliente(cliente);
+  if (validacao !== true) {
+    return validacao;
+  }
+
+  let index = clienteIndex(cliente);
+  if (index === false) {
+    return 'Cliente não encontrada(o).'
+  }
+
+  clientesBank.splice(index, 1);
+  return 'Cliente excluída(o) com sucesso.';
+}
+
+console.log(removeCliente(false)); // O parâmetro passado deve ser do tipo "string"!
+console.log(removeCliente('Barney')); // Cliente não encontrada(o)
+console.log(removeCliente('John')); // Cliente excluída(o) com sucesso.
+console.log(clientesBank); // [ 'Ada', 'Gus' ]
