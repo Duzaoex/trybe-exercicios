@@ -9,3 +9,11 @@ console.log('Bem-vinda, ' + info.personagem);
 info['recorrente'] = 'sim';
 
 console.log(info);
+
+for (let keyandvalues in info){
+  console.log(info);
+}
+
+for (let keyandvalues in info){
+  console.log(info[keyandvalues]);
+}
