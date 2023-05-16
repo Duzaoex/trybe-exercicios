@@ -1,0 +1,40 @@
+body {
+  margin: 15px;
+}
+.preferences {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  border: 1px solid green;
+  margin: 50px;
+}
+.options {
+  display: flex;
+  flex-direction: column;
+}
+.title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.description {
+  line-height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-style: italic;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 15px;
+  line-height:  20px;
+}
+.paragraph {
+  line-height: 20px;  
+  display: flex;
+}
