@@ -1,1 +1,1 @@
-# trybe-exercicio
+# Exercícios realizados durante o curso da Trybe
