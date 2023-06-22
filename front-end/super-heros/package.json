@@ -1,0 +1,21 @@
+{
+  "name": "super-heros",
+  "version": "1.0.0",
+  "description": "Api de super heroes",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm",
+    "dev": "vite --open",
+    "lint": "eslint --no-inline-config --no-error-on-unmatched-pattern -c .eslintrc.json . --ext .js"
+  },
+  "keywords": [
+    "heros"
+  ],
+  "author": "Eduardo Neris Carneiro",
+  "license": "ISC",
+  "dependencies": {
+    "@trybe/eslint-config-frontend": "^1.11.3",
+    "sweetalert2": "^11.7.12",
+    "vite": "^4.3.9"
+  }
+}
