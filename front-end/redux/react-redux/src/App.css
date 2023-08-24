@@ -1,4 +1,4 @@
-body {
+ body {
   background-color: black;
   color: white;
   display: flex;
@@ -18,5 +18,5 @@ h1, h2 {
 button {
   margin: auto;
   padding: 10px;
-  margin-left: 20px;
+  margin-left: 30px;
 }
